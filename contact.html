@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- On-Page SEO -->
+    <!-- Title Tags and Meta Descriptions -->
+    <!-- This method was taken from the WEDE 2025 Module Manual,
+     Page 181 --->
+    <meta name="description" content="Contact us for any enquieries.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering The Nation's Contact Page</title>
+
+
+   <!--On-Page SEO -->
+   <!--Keyword research-->
+   <!-- This method was taken from the WEDE 2025 Module Manual,
+   Page 181-182 --->
+   <meta name="keywords" content="contact us, get a quote, skills, courses">
+
+
+    <!--Link to external CSS file for styling-->
+   <link rel="stylesheet" href="css-assets/style.css">
+</head>
+<body>
+    <header>
+
+        <!-- On-Page SEO -->
+        <!--Internal Linking-->
+        <nav>
+        <a href="index.html">Home Page</a>
+      <a href="about.html">About</a>
+      <a href="course.html">Our Courses</a>
+    </nav>
+
+    </header>
+
+        <!-- Code Attribution -->
+         <!--This method was taken from StackOverflow-->
+         <!-- https://stackoverflow.com/questions/6667081/keep-a-line-of-text-as-a-single-line-wrap-the-whole-line-or-none-at-all -->
+          <!--Author-->
+          <!--https://stackoverflow.com/users/443651/gus-->
+          
+          <!--Used to keep text on a single line-->
+          <p>
+            <span class="nowrap" id="Spn1">Quote Form</span>
+            <span class="nowrap" id="Spn2">Contact Us</span>
+        </p>
+              
+        <div  id="box1">
+            <!--Form for user input and application submission-->
+            <form target="_blank" action="course.html" method="POST" style="margin-left: 40px;">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+                
+                <br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                
+                <br>
+                
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <br>
+                
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address" required>
+                
+                <br>
+                
+                <label for="course">Select A Course:</label><br>
+                <select id="course" name="course" required>
+                    <!--Code Attribution-->
+                    <!-- This method was taken from stack overflow-->
+                     <!--https://stackoverflow.com/questions/18179960/how-to-add-a-title-to-a-html-select-tag-->
+                     <!--Author-->
+                     <!--https://stackoverflow.com/users/453331/kba-->
+                     <!--https://stackoverflow.com/users/5035605/user5035605-->
+                     <option value="" disabled selected>Six Week Course</option>
+                     <option value="Child"  >Child Minding</option>
+                     <option value="Cooking">Cooking</option>
+                     <option value="Garden">Garden Maintenance</option>
+                     <option value="" disabled selected>Six Month Course</option>
+                     <option value="Aid">First Aid</option>
+                     <option value="Sewing">Sewing</option>
+                     <option value="Land">Landscaping</option>
+                     <option value="Life">Life Skills</option>
+                    </select>
+                    <br><br> 
+                    <a href="course.html" >
+                        <input type="submit" style="width: 150px;">
+                    </a>
+                </form>
+            </div>
+
+            <!--Contact Information of the SME-->
+                  
+            <div id="box2">
+                <p style="font-size: 1em;margin-top: 30px">011 325 9940 <br><br>
+                    empyouth@gmail.co.za <br><br>
+                    Riverview Office Park, 11 <br><br>
+                    Jandel Ave, Waterfall <br><br><!--Footer-->
+                    Midrand, 1686
+                </p>
+            </div>
+
+            <footer style="margin-top: 30%;">
+                <p>&copy; 2025 Empowering The Nation</p>
+            </footer>
+
+             <!--Interactive maps using Google Maps-->
+             <!-- This code was taken from google-->
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.116343320009!2d28.118184675408216!3d-25.99700597720478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e1dcaf8503f%3A0xf5bfc8db3056190c!2sThe%20IIE&#39;s%20Varsity%20College%20-%20Waterfall-Midrand!5e0!3m2!1sen!2sza!4v1755014888673!5m2!1sen!2sza" 
+            width="1481" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!--This line of code was taken from, 
+        the jQuery website--->
+        <!--js.foundation, J.F. - (n.d.). jQuery CDN. [online] Available at:
+        https://releases.jquery.com/.-->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="js-assets/scripts.js"></script>
+        </body>
+        </html>

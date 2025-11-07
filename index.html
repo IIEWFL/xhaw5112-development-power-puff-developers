@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+
+  <!-- On-Page SEO -->
+  <!-- Title Tags and Meta Descriptions -->
+  <!-- This method was taken from the WEDE 2025 Module Manual,
+   Page 181 --->
+  <meta name="description" content="Discover the Empowering The Nations organization, by Precious Radebe.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empowering The Nation's Home Screen</title>
+
+  <!-- On-Page SEO -->
+  <!--Keyword research-->
+  <!-- This method was taken from the WEDE 2025 Module Manual,
+   Page 181-182 --->
+  <meta name="keywords" content="SME, quality training, domestic workers, education.">
+
+
+  <!--Link to external CSS file for styling-->
+  <link rel="stylesheet" href="css-assets/style.css">
+
+  <script type="text/javascript">
+    function call_alert() {
+      alert("Welcome to Empowering The Nation's Home Page");
+    }
+  </script>
+
+<body onload=call_alert()>
+
+  </head>
+
+  <body>
+    <header>
+      <!--Logo Image section-->
+      <picture>
+        <source media="(max-width: 767px)" srcset="_images/Logo.png">
+        <source media="(max-width: 1023px)" srcset="_images/Logo.png">
+        <img src="_images/Logo.png" alt="Empowering The Nation logo" height="140" width="200">
+      </picture>
+      <h1>Empowering The Nation Home Screen</h1>
+
+
+
+      <!-- On-Page SEO -->
+      <!--Internal Linking-->
+      <nav>
+        <a href="about.html">About</a>
+        <a href="course.html">Our Courses</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section>
+      <!--3.3) Responsive Images-->
+      <!--This code was taken from stackoverflow,
+        <Picture tag with different sources-->
+      <picture>
+        <source media="(max-width: 767px)" srcset="_images/hero image.png">
+        <source media="(max-width: 1023px)" srcset="_images/hero image.png">
+        <img src="_images/hero image.png" width="100%" height="400">
+
+        <!--Implementing a gallery with a lightbox-->
+        <a href="_images/hero image.png" data-lightbox="Hero" title="HeroImage" height="150" width="200"></a>
+
+        <!--Image optimisation-->
+        <img src="_images/umoya-bakes_pink_cake.jpg" alt="Picture of a pink decorated cake by Umoya Bakes" height="150"
+          width="200">
+      </picture>
+      <h2>Welcome to Empowering The Nation</h2>
+      <p>A local mid-sized-enterprise, where we provide skills training
+        Our SME is committed to providing high-quality training programs for domestic workers and gardeners.
+        Our goal is to train individuals to become skilled professionals that can be more employable in the job market.
+        We are dedicated to providing the best education and facilities for the training of the people of small
+        communities everywhere.
+      </p>
+    </section>
+    <br>
+    <br>
+    <main>
+      <!-- A short descriptive paragraph about the courses we offer-->
+      <p id="text1">We offer training for<br>domestic workers and <br>gardeners</p>
+
+      <!--Button linking to the Contact/Quote page-->
+      <!--Inline style sets the width of the button-->
+      <div class="buttons">
+        <button id="button1" style="width: 340px">
+          <a href="contact.html">Quote/Contact us</a>
+        </button>
+        <!-- Button linking to the About Us page -->
+        <button id="button2" style="width: 240px">
+          <a href="about.html">About us </a>
+        </button>
+      </div>
+    </main>
+
+    <br>
+
+    <!--Footer-->
+    <footer>
+      <p>&copy; 2025 Empowering The Nation</p>
+    </footer>
+
+    <!--This line of code was taken from, 
+  the jQuery website--->
+    <!--js.foundation, J.F. - (n.d.). jQuery CDN. [online] Available at:
+   https://releases.jquery.com/.-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js-assets/scripts.js"></script>
+  </body>
+
+</html>

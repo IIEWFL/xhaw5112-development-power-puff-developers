@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six-week Courses</title> 
+    <!--Link to external CSS file for styling-->
+    <link rel="stylesheet" href="css-assets/style.css">
+</head>
+<body>
+     <header>
+          <nav> 
+      <a href="about.html">About</a>
+      <a href="course.html">Our Courses</a>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+    <h1 id="heading3">Six-Week Courses</h1>
+    <!--For the navigations of the dropdown menus-->
+    <!--Code Attribution-->
+    <!--This method was taken from Stackoverflows-->
+    <!--https://stackoverflow.com/questions/19843373/linking-to-other-pages-in-html-via-drop-down-menu-->
+    <!--Author-->
+    <!--https://stackoverflow.com/users/741747/the-alpha-->
+    <h2>Child Minding</h2>
+    <!--Leads to course page of the child minding course information-->
+    <script type="text/javascript">
+    function goToNewPage1(){
+        var url = document.getElementById('Child').value;
+        if(url != 'none'){window.location = url;}}
+        </script>
+        <select name="Child" id="Child"  accesskey="target" onclick="goToNewPage1()">
+            <option id="info1" value="4.1.info(Child).html">Information</option>
+        </select>
+        
+        <h2>Cooking</h2>
+        <!--Leads to course page of the cooking course information-->
+        <script type="text/javascript">
+        function goToNewPage2(){
+            var url = document.getElementById('Cooking').value;
+            if(url != 'none') {window.location = url;}}
+            </script>
+            <select name="Cooking" id="Cooking" accesskey="target" onclick="goToNewPage2()">
+                <option id="info2" value="4.2.info(Cooking).html">Information</option>
+            </select>
+            
+            <h2>Garden Maintenance</h2>
+             <!--Leads to course page of the garden maintenance course information-->
+            <script type="text/javascript">
+            function goToNewPage3(){
+                var url = document.getElementById('Garden').value;
+                if(url != 'none'){window.location = url;}}
+                </script>
+            <select name="Garden" id="Garden" accesskey="target" onclick="goToNewPage3()">
+                <option id="info3" value="4.3.info(Garden).html">Information</option>
+            </select>
+</body>
+</html>
